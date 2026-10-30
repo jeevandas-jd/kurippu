@@ -4,11 +4,7 @@
 
 A customer sends *"Chetta 2 kilo matta ari, 1 Milma butter cheriya, 6 mutta, oru packet banana chips"*. The shopkeeper pastes it into Kurippu and in about a second gets a checked order, a printable packing slip, a ready-to-send WhatsApp reply and a UPI QR for the exact amount. An open-weight model (**Gemma 4**, through Ollama) reads the Manglish, Malayalam, or English message. **Plain code** matches items to the shop's own price list and does all the money maths. The order-reading model runs locally; message content is not sent to an AI provider.
 
-![New order: items checked against the price list, live bill, WhatsApp reply](docs/order.jpg)
-![Orders dashboard: today's sales, still to collect, one-click status](docs/orders.jpg)
-
-Built for the Hacktoberfest 2026 DEV "Side Hustle" challenge.
-
+!
 ## Why it runs locally
 
 - **Customer data kadayil thanne irikkum.** Orders carry names, phone numbers and what each household buys. The reader uses a local model rather than a hosted AI API.
